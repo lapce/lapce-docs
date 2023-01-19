@@ -1,15 +1,15 @@
-# Table of contents
+# Tabla de contenidos
 
 * [Introduction](README.md)
 
-## Get started
+## Empezar
 
-* [Setup](get-started/setup.md)
-* [Command Palette](get-started/command-palette.md)
-* [Settings](get-started/settings.md)
-* [Keybindings](get-started/keybindings.md)
-* [Modal editing](get-started/modal-editing.md)
-* [Remote Development](get-started/remote-development.md)
+* [Configuración](get-started/configuracion.md)
+* [Paleta de Comandos](get-started/paleta-de-comandos.md)
+* [Ajustes](get-started/ajustes.md)
+* [Atajo de teclado](get-started/atajo-de-teclado.md)
+* [Edición modal](get-started/edicion-modal.md)
+* [Desarrollo remoto](get-started/desarrollo-remoto.md)
 
 ## Features
 
