@@ -1,7 +1,7 @@
-# Introduction
+# Introducción
 
-Welcome to Lapce!
+¡Bienvenido a Lapce!
 
-[Lapce](https://lapce.dev) is an open source code editor written in Rust. By utilising native GUI and GPU rendering, and with the performance Rust provides, Lapce is one of the fastest code editors out there. &#x20;
+[Lapce](https://lapce.dev) es un editor open source escrito en Rust. Mediante el uso del renderizado GPU y GUI nativo, y con el rendimiento que proporciona Rust, Lapce es uno de los editores de código más rapido que existen.&#x20;
 
 ![](https://raw.githubusercontent.com/lapce/lapce/master/extra/images/screenshot.png)
