@@ -1,6 +1,6 @@
-# Condiguración
+# Configuración
 
-Lapce actualmente soporta Linux, Windows y macOs. Simplemente descargue [Lapce](https://lapce.dev/#downloads-all) para su sistema operativo e instalelo si es necesario.&#x20;
+Lapce actualmente soporta Linux, Windows y macOs. Simplemente descargue [Lapce](https://lapce.dev/#downloads-all) para su sistema operativo e instálelo si es necesario.&#x20;
 
 <figure><img src="../.gitbook/assets/first_launch.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +21,6 @@ Alternativamente, también puede escoger `Open recent workspace` en el menú des
 
 ## Trabajar con archivos
 
-After you opened a workspace, the files will appear in the file explorer on the left panel. You can navigate the files and folder there and open them by clicking on the file name. Alternatively, you can use `Go To File` feature (`Cmd`+`p` on macOS and `Ctrl`+`p` on Linux and Windows) to fuzzy search files in your workspace for quicker opening.&#x20;
 Despues de abrir un espacio de trabajo, los archivos aparecerán el explorador de archivos, en el panel izquierdo. Puede navegar por los archivos y carpetas, y abrirlos haciendo click en el nombre del archivo. Támbien, puede usar `Go To File` , o commandos como `Cmd`+`p` (en macOs) y `Ctrl`+`p` (en Linux y Windows)
 
 <figure><img src="../.gitbook/assets/workspace_go_to_file.png" alt=""><figcaption></figcaption></figure>
