@@ -11,10 +11,10 @@
 * [Edición modal](empezar/edicion-modal.md)
 * [Desarrollo remoto](empezar/desarrollo-remoto.md)
 
-## Features
+## Funcionalidades
 
-* [Code Lens](features/code-lens.md)
-* [Multiple Cursor](features/multiple-cursor.md)
+* [Code Lens](funcionalidades/enfoque-de-codigo.md)
+* [Múltiples cursores](funcionalidades/multiples-cursores.md)
 
 ## Development
 
