@@ -16,8 +16,8 @@
 * [Code Lens](funcionalidades/enfoque-de-codigo.md)
 * [Múltiples cursores](funcionalidades/multiples-cursores.md)
 
-## Development
+## Desarrollo
 
-* [Architecture](development/architecture.md)
-* [Plugin Development](development/plugin-development.md)
-* [Theme](development/theme.md)
+* [Arquitectura](desarrollo/arquitectura.md)
+* [Plugins](desarrollo/plugins.md)
+* [Tema](desarrollo/tema.md)
