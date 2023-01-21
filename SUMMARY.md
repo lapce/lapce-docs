@@ -10,6 +10,7 @@
 * [Keybindings](get-started/keybindings.md)
 * [Modal editing](get-started/modal-editing.md)
 * [Remote Development](get-started/remote-development.md)
+* [Themes](get-started/themes.md)
 
 ## Features
 
