@@ -1,4 +1,5 @@
-## A word from the [original creator](https://github.com/dzhou121) on the original inspiration and idea of Lapce
+A word from the [original creator](https://github.com/dzhou121) on the original inspiration and idea of Lapce
+---
 
 I'm a Vim fan. After years of using it, I started to customize it like everybody else. I thought I had something that worked quite well until I hit one problem. My linter sometimes took seconds to check the code, and it would freeze Vim because Vim didn't have asynchronous support. I looked around; I found NeoVim and problem solved. Happy days.
 
@@ -9,17 +10,22 @@ I wanted to external more and more components in NeoVim, but I found it harder a
 Then one day, I experienced VSCode's remote development feature, and it felt so "local". I wanted to add the feature to my code editor. Then I realized that it can't be done with NeoVim or Xi's UI/backend architecture. The reason was that (Neo)Vim/Xi backends are the editing engine, so when you put the backend to a remote machine, every keyboard input needs to be sent to it, and the backend emits the drawing events to you, which will include the network latency in everything you type. That wouldn't work. The editing logic must be tightly bound with the UI to give the best editing experience.
 
 So the new architecture I came up with was like this:
+```
+UI
+```
+- Reads file from Proxy
+- Handle keyboard/mouse events and do the edits on the file buffer
+- Send the file editing delta to the proxy to keep the file in sync
 
-    UI
-Reads file from Proxy<br>
-Handle keyboard/mouse events and do the edits on the file buffer<br>
-Send the file editing delta to the proxy to keep the file in sync<br>
+```
+Proxy
+```
+- Receive save event from UI and flush the file buffer to disk
+- proxy the events between UI and the plugins
 
-	 Proxy
-Receive save event from UI and flush the file buffer to disk<br>
-proxy the events between UI and the plugins<br>
-
-	Plugin
-Communicate with UI through proxy<br>
+```
+Plugin
+```
+- Communicate with UI through proxy
 
 UI sits locally. Proxy and Plugin will be in the remote box when doing remote development. With this architecture, I can make sure the editing experience is always the best, with other considerations like syntax highlighting being done in a different thread, so nothing blocks the main thread at any time. I finally had a lightning-fast and powerful code editor. (which can be beautiful as well)
