@@ -4,7 +4,7 @@
 
 ## Frontend
 
-The frontend uses [Floem](https://github.com/lapce/floem) for the GUI of Lapce. All the state and logic are in `lapce-data` sub crate, e.g., file buffers, editor tabs, cursor, etc. The UI widgets tree, layout, and rendering logic are in `lapce-ui` sub crate, including all the UI related stuff, e.g., keyboard and mouse events, file dialogs, context menus etc.
+The frontend uses [Druid](https://github.com/linebender/druid) for the GUI of Lapce. Druid is a data first GUI framework. And all the state and logic are in `lapce-data` sub crate, e.g., file buffers, editor tabs, cursor, etc. The UI widgets tree, layout, and rendering logic are in `lapce-ui` sub crate, including all the UI related stuff, e.g., keyboard and mouse events, file dialogs, context menus etc.
 
 ## Proxy
 

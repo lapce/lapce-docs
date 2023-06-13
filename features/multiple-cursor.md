@@ -51,6 +51,12 @@ To add the next occurrence of the current selection, or the work the cursor at, 
 
 `Meta+D` For macOS
 
+
+<details>
+  <summary>Demo</summary>
+    <figure><img src="../.gitbook/assets/add_next_occurrence_current_selection.gif"alt=""><figcaption></figcaption></figure>
+</details>
+
 Or if you want to skip the next occurrence, use:
 
 `Ctrl+K Ctrl+D` For Windows and Linux
@@ -59,7 +65,7 @@ Or if you want to skip the next occurrence, use:
 
 <details>
   <summary>Demo</summary>
-    <figure><img src="../.gitbook/assets/select_all_occurrences.gif"alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/add_next_occurrence_skip.gif"alt=""><figcaption></figcaption></figure>
 </details>
 
 ## Undo cursor
