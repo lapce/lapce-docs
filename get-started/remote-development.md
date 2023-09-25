@@ -10,7 +10,7 @@ To use it, click the blue remote icon on the top left
 
 <figure><img src="../.gitbook/assets/remote_ssh_palette.png" alt=""><figcaption></figcaption></figure>
 
-Upon successful ssh connection your local Lapce instance uploads a script that downloads corresponding lapce-proxy version onto the remote host from GitHub releases. Once lapce-proxy downloaded and started on the remote machine your local Lapce instance establishes a connection to it via SSH tunnel.  
+Upon successful ssh connection, lapce will attempt to download proxy directly from remote host, and in case of failure, it will try to download it through your local host and upload it to remote machine. Once `lapce-proxy` downloaded and started on the remote machine your local Lapce instance establishes a connection to it via SSH tunnel.  
 
 After it's connected, it will show a green connected status on the remote development icon. Then you can start to `Open folder` as if you are opening a local folder.
 
