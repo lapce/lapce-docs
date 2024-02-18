@@ -14,4 +14,4 @@ Then in the plugin folder, run
 
 `volts publish`
 
-It should publish the plugin to the registry.&#x20;
+It should publish the plugin to the registry.

@@ -1,12 +1,12 @@
 # Remote Development
 
-Lapce has a remote development feature, which you can connect Lapce to a remote machine via SSH. After connecting to the remote machine, all the plugins, and commands will be run from the remote machine. You would have exactly the same experience as if you were working a local workspace, without feeling any differences.&#x20;
+Lapce has a remote development feature, which you can connect Lapce to a remote machine via SSH. After connecting to the remote machine, all the plugins, and commands will be run from the remote machine. You would have exactly the same experience as if you were working a local workspace, without feeling any differences.
 
 To use it, click the blue remote icon on the top left
 
 <figure><img src="../.gitbook/assets/remote_ssh_button.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;It will pop up the input box for you to put in the SSH connection details. You can use the hostname you configured in your `~/.ssh/config`
+It will pop up the input box for you to put in the SSH connection details. You can use the hostname you configured in your `~/.ssh/config`
 
 <figure><img src="../.gitbook/assets/remote_ssh_palette.png" alt=""><figcaption></figcaption></figure>
 
