@@ -11,6 +11,7 @@
 * [Modal editing](get-started/modal-editing.md)
 * [Remote Development](get-started/remote-development.md)
 * [Themes](get-started/themes.md)
+* [Terminal](get-started/terminal.md)
 
 ## Features
 
