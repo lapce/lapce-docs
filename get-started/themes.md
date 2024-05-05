@@ -8,8 +8,7 @@ or via [Core Settings](settings.md)
 
 <figure><img src="../.gitbook/assets/theme_core_settings.png" alt=""><figcaption></figcaption></figure>
 
-
-## Installing themes 
+## Installing themes
 
 Themes can be installed just like other extensions from the extensions tab
 
@@ -17,6 +16,6 @@ Themes can be installed just like other extensions from the extensions tab
 
 ---
 
-*Lapce with [`Ayu Mirage`](https://plugins.lapce.dev/plugins/WalterOfNone/ayu) and [`Material Icons`](#)*
+*Lapce with [`Ayu Mirage`](https://plugins.lapce.dev/plugins/WalterOfNone/ayu) and `Material Icons`*
 
 <figure><img src="../.gitbook/assets/theme_example.png" alt=""><figcaption></figcaption></figure>
