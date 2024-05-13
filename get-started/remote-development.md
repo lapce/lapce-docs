@@ -6,7 +6,12 @@ To use it, click the blue remote icon on the top left
 
 <figure><img src="../.gitbook/assets/remote_ssh_button.png" alt=""><figcaption></figcaption></figure>
 
-It will pop up the input box for you to put in the SSH connection details. You can use the hostname you configured in your `~/.ssh/config`
+It will pop up the input box for you to put in the SSH connection details. You can use `<user>@<host>` or the `Host` name (do not confuse with `HostName` in SSH) you configured in your `~/.ssh/config`.
+
+{% hint style="warning" %}
+Lapce will use your host OpenSSH installation (`ssh` program) to connect to remote target, it doesn't read that file directly so it will not display any host configuration from that file.
+Palette input in Lapce will show you only recent SSH connections that you made in Lapce itself.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/remote_ssh_palette.png" alt=""><figcaption></figcaption></figure>
 
