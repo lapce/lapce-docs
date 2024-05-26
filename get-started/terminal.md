@@ -2,6 +2,10 @@
 
 ## Terminal profiles
 
+{% hint style="warning" %}
+Terminal profiles are experimental feature and not integrated completely with rest of the editor.
+{% endhint %}
+
 Example `settings.toml` configuration:
 
 ```toml
