@@ -5,21 +5,22 @@
 ## Get started
 
 * [Setup](get-started/setup.md)
-* [Command Palette](get-started/command-palette.md)
+* [Command palette](get-started/command-palette.md)
 * [Settings](get-started/settings.md)
 * [Keybindings](get-started/keybindings.md)
 * [Modal editing](get-started/modal-editing.md)
-* [Remote Development](get-started/remote-development.md)
+* [Remote development](get-started/remote-development.md)
 * [Themes](get-started/themes.md)
 * [Terminal](get-started/terminal.md)
 
 ## Features
 
-* [Code Lens](features/code-lens.md)
-* [Multiple Cursor](features/multiple-cursor.md)
+<!-- * [Code lens](features/code-lens.md) -->
+* [Multiple cursor](features/multiple-cursor.md)
+* [Syntax highlighting](features/multiple-cursor.md)
 
 ## Development
 
 * [Architecture](development/architecture.md)
-* [Plugin Development](development/plugin-development.md)
+* [Plugin development](development/plugin-development.md)
 * [Theme](development/theme.md)

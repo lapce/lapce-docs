@@ -20,7 +20,7 @@ windows = "pwsh"
 [terminal.profiles.default]
 
 [terminal.profiles.toolbox]
-commmand    = "toolbox"
+command     = "toolbox"
 arguments   = ["enter"]
 workdir     = "/root"
 environment = { SSH_AUTH_SOCK = "/run/user/100/ssh.sock" }
