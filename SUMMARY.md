@@ -17,7 +17,7 @@
 
 <!-- * [Code lens](features/code-lens.md) -->
 * [Multiple cursor](features/multiple-cursor.md)
-* [Syntax highlighting](features/multiple-cursor.md)
+* [Syntax highlighting](features/syntax-highlighting.md)
 
 ## Development
 
