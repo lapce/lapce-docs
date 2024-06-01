@@ -4,6 +4,8 @@ Language support such as tokenizing and highlighting is provided by [Tree Sitter
 
 ## Grammars
 
+To learn more about queries, see [Creating Parsers][tree-sitter-parsers].
+
 Lapce has select few (Rust, JSON, TOML) grammars built-in for convenience. All other languages need to provide an externally loadable grammar in a form of shared library. Lapce will update all supported grammars by default on start-up.
 
 Grammars are stored in `$LOCAL_DATA_DIR/grammars` directory. Each grammar should be named `${DLL_PREFIX}tree-sitter-${NAME}.${DLL_SUFFIX}` where `${NAME}` refers to language name and `${DLL_PREFIX}`/`${DLL_SUFFIX}` refer to OS defined constants for shared libraries (see [`DLL_PREFIX`][rust-dll-prefix] and [`DLL_EXTENSION`][rust-dll-extension]).
@@ -36,4 +38,5 @@ It can be otherwise defined through `language_id_from_path` in [`lapce-proxy/src
 [rust-dll-prefix]: https://doc.rust-lang.org/std/env/consts/constant.DLL_PREFIX.html
 [rust-dll-extension]: https://doc.rust-lang.org/std/env/consts/constant.DLL_EXTENSION.html
 [tree-sitter-website]: https://tree-sitter.github.io
+[tree-sitter-parsers]: https://tree-sitter.github.io/tree-sitter/creating-parsers
 [tree-sitter-queries]: https://tree-sitter.github.io/tree-sitter/syntax-highlighting#queries
