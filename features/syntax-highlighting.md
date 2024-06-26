@@ -1,6 +1,6 @@
 # Syntax highlighting
 
-Language support such as tokenizing and highlighting is provided by [Tree Sitter][tree-sitter-website]. Each language requires a Tree Sitter grammar to have tokenization and queries to provide additional features such as syntax highlighting.
+Language support such as tokenizing and highlighting is provided by [Tree-sitter][tree-sitter-website]. Each language requires a Tree-sitter grammar to have tokenization and queries to provide additional features such as syntax highlighting.
 
 ## Grammars
 
@@ -30,7 +30,7 @@ Languages are defined in [`lapce-core/src/language.rs`][lapce-core-language].
 
 ## Language Server Protocol
 
-LSPs should define `DocumentSelector` via the extension API and/or through `volt.toml` extension manifest.
+LSP providers should define `DocumentSelector` via the extension API and/or through `volt.toml` extension manifest.
 It can be otherwise defined through `language_id_from_path` in [`lapce-proxy/src/buffer.rs`][lapce-proxy-buffer].
 
 [lapce-core-language]: https://github.com/lapce/lapce/blob/master/lapce-core/src/language.rs
