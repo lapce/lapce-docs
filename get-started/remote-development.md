@@ -1,7 +1,7 @@
 # Remote Development
 
 {% hint style="warning" %}
-Currently opening folders via UI is not possible due to recent UI rewrite. To open a path when connected remotely you can use terminal to open any path via running `lapce <path>`.
+Currently opening workspaces via `Open folder` is not possible due to recent UI rewrite. To open a workspace when connected remotely you can use terminal to open any path via running `lapce <PATH>`.
 {% endhint %}
 
 {% hint style="warning" %}
