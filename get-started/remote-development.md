@@ -1,5 +1,14 @@
 # Remote Development
 
+{% hint style="warning" %}
+Currently opening folders via UI is not possible due to recent UI rewrite. To open a path when connected remotely you can use terminal to open any path via running `lapce <path>`.
+{% endhint %}
+
+{% hint style="warning" %}
+Remote development works only with a SSH key authentication. If you want to use password, you can run Lapce via terminal with option `--wait` for it to attach to stdin/stdout.
+Lapce uses your host `ssh` program to handle any interaction, Lapce itself does not read `ssh` configuration, keys or any other related files.
+{% endhint %}
+
 Lapce has a remote development feature, which you can connect Lapce to a remote machine via SSH. After connecting to the remote machine, all the plugins, and commands will be run from the remote machine. You would have exactly the same experience as if you were working a local workspace, without feeling any differences.
 
 To use it, click the blue remote icon on the top left
@@ -22,7 +31,3 @@ After it's connected, it will show a green connected status on the remote develo
 <figure><img src="../.gitbook/assets/remote_ssh_connected.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/remote_ssh_workspace_opened.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="danger" %}
-Remote development only works with key based SSH authentication at the moment. So it doesn't connect if you normally put a password for connecting to the SSH host.
-{% endhint %}
