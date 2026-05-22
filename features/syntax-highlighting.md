@@ -13,7 +13,7 @@ Grammars are stored in `$LOCAL_DATA_DIR/grammars` directory. Each grammar should
 Grammars are loaded in order:
 
   1. User provided grammar
-  2. System provider grammar
+  2. System provided grammar
   3. Built-in grammar
 
 ## Queries
